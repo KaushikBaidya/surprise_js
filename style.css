@@ -334,8 +334,9 @@ header {
 }
 #about,
 #services,
-#tours {
-  height: 80vh;
+#tours, 
+#contact{
+  min-height: 80vh;
 }
 #services {
   background: var(--clr-white);
