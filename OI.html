@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Info</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="card.css" />
+</head>
+<body>
+    <!-- navbar -->
+    <nav id="nav-pack">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+         <a href="index.html"><img src="img/logo.png" class="logo" alt="logo" />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+          </a>
+        </div>
+        <!-- links -->
+      </div>
+    </nav>
+
+    <section class="section">
+      <div class="title">
+        <h2>Order <span>Info</span></h2>
+
+        <div class="form-container">
+
+            <form action="/action_page.php">
+                <fieldset>
+                    <legend>Select Package</legend>
+                    <input type="radio" id="birthday" name="package" value="Birthday">
+                    <label for="male">Birthday</label><br>
+                    <input type="radio" id="Anniversary" name="package" value="Anniversary">
+                    <label for="female">Anniversary</label><br>
+                    <input type="radio" id="Custom" name="package" value="Custom">
+                    <label for="other">Custom</label><br><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                  <legend>Sender Info:</legend>
+                  <label for="fname">First name:</label><br>
+                  <input type="text" id="fname" name="fname"><br>
+                  <label for="lname">Last name:</label><br>
+                  <input type="text" id="lname" name="lname"><br>
+                  <label for="address">Address:</label><br>
+                  <input type="text" id="address" name="address"><br><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Recipient's Info:</legend>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="address">Address:</label><br>
+                    <input type="text" id="address" name="address"><br><br>
+                  </fieldset>
+                  <br>
+                  <input type="submit" value="Proceed to Payment">
+              </form>
+          
+        </div>
+      </div>
+    </section>
+
+    <footer class="section">
+      <p>
+        copyright &copy; ChomkeDin.com
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+</body>
+</html>

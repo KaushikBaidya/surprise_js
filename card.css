@@ -2,6 +2,10 @@
     width: 90%;
     margin: auto;
 }
+.form-container{
+    width: 60%;
+    margin: auto;
+}
 .card-grid{
     display: grid;
     justify-content: center;

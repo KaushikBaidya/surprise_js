@@ -261,6 +261,17 @@ nav {
   nav {
     background: transparent;
   }
+  #nav-pack{
+    width: 90vw;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #nav-pack .links a{
+    color: black;
+  }
   .nav-center {
     width: 90vw;
     max-width: 1170px;
@@ -315,6 +326,15 @@ header {
 }
 .container p {
   color: var(--clr-white);
+  max-width: 25rem;
+  margin: 0 auto;
+  margin-bottom: 1.25rem;
+}
+.content {
+  width: 90%;
+  margin: auto;
+}
+.content p{
   max-width: 25rem;
   margin: 0 auto;
   margin-bottom: 1.25rem;
